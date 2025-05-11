@@ -4,18 +4,18 @@ navbar.innerHTML = `
     <nav class="fixed top-0 left-0 z-40 w-full bg-[#1F4B44]">
         <div class="max-w-7xl mx-auto flex justify-between items-center w-full md:p-5 p-3 md:h-28 h-24">
             <a data-aos="fade-right" href="./index.html" class="flex justify-center lg:justify-start">
-                <img src="./Docs/Assets/images/logo.png" class="md:h-24 h-16" alt="logo">
+                <img src="./Docs/Assets/images/logo-white.png" class="md:h-24 h-16" alt="logo">
             </a>
             <div class="md:flex items-center gap-10 hidden">
                 <ul data-aos="fade-left" class="md:flex hidden text-[#fff] items-center gap-10">
-                    <li><a href="./index.html"
+                    <li><a href="#Überuns"
                             class="hover:text-[#d4e2dd] tracking-wide text-lg transition-all duration-500">Über uns </a>
                     </li>
-                    <li><a href="#"
+                    <li><a href="#UnsereDienstleistungen"
                             class="hover:text-[#d4e2dd] tracking-wide text-lg transition-all duration-500">Service
                         </a>
                     </li>
-                    <li><a href="#"
+                    <li><a href="#Kontaktieren"
                             class="hover:text-[#d4e2dd] tracking-wide text-lg transition-all duration-500">Kontakt
                         </a>
                     </li>
@@ -42,13 +42,13 @@ navbar.innerHTML = `
         </div>
         <div class="p-6">
             <ul class="flex relative z-50 flex-col gap-7 text-[#32444B]">
-                <li><a href="./index.html"
+                <li><a href="#Überuns"
                         class="hover:text-[#d4e2dd] text-nowrap tracking-wide transition-all duration-500">Über uns</a>
                 </li>
-                <li><a href="#"
+                <li><a href="#UnsereDienstleistungen"
                         class="hover:text-[#d4e2dd] text-nowrap tracking-wide transition-all duration-500">Service</a>
                 </li>
-                <li><a href="#"
+                <li><a href="#Kontaktieren"
                         class="hover:text-[#d4e2dd] text-nowrap tracking-wide transition-all duration-500">Kontakt</a>
                 </li>
             </ul>
