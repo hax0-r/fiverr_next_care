@@ -43,13 +43,13 @@ navbar.innerHTML = `
         <div class="p-6">
             <ul class="flex relative z-50 flex-col gap-7 text-[#32444B]">
                 <li><a href="#Überuns"
-                        class="hover:text-[#d4e2dd] text-nowrap tracking-wide transition-all duration-500">Über uns</a>
+                        class="hover:text-[#d4e2dd] mobileMenuCloseBtn text-nowrap tracking-wide transition-all duration-500">Über uns</a>
                 </li>
                 <li><a href="#UnsereDienstleistungen"
-                        class="hover:text-[#d4e2dd] text-nowrap tracking-wide transition-all duration-500">Service</a>
+                        class="hover:text-[#d4e2dd] mobileMenuCloseBtn text-nowrap tracking-wide transition-all duration-500">Service</a>
                 </li>
                 <li><a href="#Kontaktieren"
-                        class="hover:text-[#d4e2dd] text-nowrap tracking-wide transition-all duration-500">Kontakt</a>
+                        class="hover:text-[#d4e2dd] mobileMenuCloseBtn text-nowrap tracking-wide transition-all duration-500">Kontakt</a>
                 </li>
             </ul>
         </div>
