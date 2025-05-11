@@ -29,16 +29,6 @@ footer.innerHTML = `
                             </a>
                         </li>
                     </ul>
-                    <div class="flex items-center justify-center md:justify-start gap-4 md:mt-10 mt-7">
-                        <a data-aos="fade-up" data-aos-delay="100" href=""><i
-                                class="fa-brands fa-instagram text-[#d4e2de] text-2xl"></i></a>
-                        <a data-aos="fade-up" data-aos-delay="200" href=""><i
-                                class="fa-brands fa-skype text-[#d4e2de] text-2xl"></i></a>
-                        <a data-aos="fade-up" data-aos-delay="300" href=""><i
-                                class="fa-brands fa-google text-[#d4e2de] text-xl"></i></a>
-                        <a data-aos="fade-up" data-aos-delay="400" href=""><i
-                                class="fa-brands fa-x-twitter text-[#d4e2de] text-2xl"></i></a>
-                    </div>
                 </div>
             </div>
         </footer>
