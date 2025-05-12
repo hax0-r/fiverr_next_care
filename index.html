@@ -23,18 +23,31 @@
 
         <section class="max-w-5xl w-full mx-auto p-5 md:mt-12 mt-8">
             <h1 data-aos="fade-up" class="text-center md:text-5xl text-4xl font-semibold leading-tight text-[#1F4B44]">
-                NestCare <br>
+                <span class="inline-block">
+                    <span class="relative whitespace-nowrap">
+                        <svg aria-hidden="true" viewBox="0 0 418 42"
+                            class="absolute top-2/3 left-0 h-[0.58em] w-full fill-[#60946d]" preserveAspectRatio="none">
+                            <path
+                                d="M203.371.916c-26.013-2.078-76.686 1.963-124.73 9.946L67.3 12.749C35.421 18.062 18.2 21.766 6.004 25.934 1.244 27.561.828 27.778.874 28.61c.07 1.214.828 1.121 9.595-1.176 9.072-2.377 17.15-3.92 39.246-7.496C123.565 7.986 157.869 4.492 195.942 5.046c7.461.108 19.25 1.696 19.17 2.582-.107 1.183-7.874 4.31-25.75 10.366-21.992 7.45-35.43 12.534-36.701 13.884-2.173 2.308-.202 4.407 4.442 4.734 2.654.187 3.263.157 15.593-.78 35.401-2.686 57.944-3.488 88.365-3.143 46.327.526 75.721 2.23 130.788 7.584 19.787 1.924 20.814 1.98 24.557 1.332l.066-.011c1.201-.203 1.53-1.825.399-2.335-2.911-1.31-4.893-1.604-22.048-3.261-57.509-5.556-87.871-7.36-132.059-7.842-23.239-.254-33.617-.116-50.627.674-11.629.54-42.371 2.494-46.696 2.967-2.359.259 8.133-3.625 26.504-9.81 23.239-7.825 27.934-10.149 28.304-14.005.417-4.348-3.529-6-16.878-7.066Z">
+                            </path>
+                        </svg>
+                        <span class="relative">NestCare</span></span>
+                </span>
+                <br>
                 Ihr Zuhause in guten Händen.
             </h1>
             <p data-aos="fade-up" data-aos-delay="100"
-                class="text-center mt-6 text-[#32444B] pb-2  md:text-xl text-lg opacity-80">Wir kümmern
+                class="text-center mt-6 text-[#32444B] md:text-xl text-lg opacity-80">Wir kümmern
                 uns um
                 Ihr Zuhause,
                 als
                 wäre es
                 unser eigenes.</p>
-            <div data-aos="fade-up" data-aos-delay="100" class="w-full h-3 bg-[#32444B] max-w-xl rounded-2xl mx-auto"></div>
-            <iframe data-aos="fade-up" data-aos-delay="200"
+            <p data-aos="fade-up" data-aos-delay="200"
+                class="text-center mt-2 text-[#32444B] md:text-xl font-semibold text-lg opacity-80">Jetzt in der Region
+                Bülach -
+                Kloten - Rümlang verfügbar!</p>
+            <iframe data-aos="fade-up" data-aos-delay="300"
                 src="https://www.youtube.com/embed/G4TnNeWAn9c?autoplay=1&mute=1&loop=1&playlist=G4TnNeWAn9c"
                 frameborder="0" allow="autoplay; encrypted-media;" allowfullscreen
                 class="w-full rounded-lg md:h-[34.8rem] h-52 md:mt-10 mt-8">
@@ -87,7 +100,7 @@
                                 Besuch</p>
                         </div>
                     </div>
-                    <div data-aos="fade-up" data-aos-delay="100"
+                    <div data-aos="fade-up" data-aos-delay="200"
                         class="w-full flex flex-col items-center justify-between rounded-lg bg-[#d4e2de] p-3 text-center">
                         <div class="">
                             <img src="./Docs/assets/images/Reinigung.jpg" class="rounded-lg mb-5" alt="">
@@ -104,7 +117,7 @@
                                 Reinigungsstunde</p>
                         </div>
                     </div>
-                    <div data-aos="fade-up" data-aos-delay="200"
+                    <div data-aos="fade-up"
                         class="w-full flex flex-col items-center justify-between rounded-lg bg-[#d4e2de] p-3 text-center">
                         <div class="">
                             <img src="./Docs/assets/images/Pflanzenpflege.png" class="rounded-lg mb-5" alt="">
@@ -124,7 +137,7 @@
                                 Aufwand - wir besprechen alles transparent im Voraus.</p>
                         </div>
                     </div>
-                    <div data-aos="fade-up" data-aos-delay="300"
+                    <div data-aos="fade-up" data-aos-delay="200"
                         class="w-full flex flex-col items-center justify-between rounded-lg bg-[#d4e2de] p-3 text-center">
                         <div class="">
                             <img src="./Docs/assets/images/Tierpflege.jpg" class="rounded-lg mb-5" alt="">
@@ -180,20 +193,21 @@
             <h2 data-aos="fade-up" class="text-center md:text-5xl text-3xl font-semibold leading-tight text-[#1F4B44]">
                 Kontaktieren Sie
                 uns</h2>
-            <form class="md:mt-12 mt-6 grid md:grid-cols-2 gap-4">
-
-                <input data-aos="fade-up" required type="text" placeholder="Ihr Name"
+            <form class="md:mt-12 mt-6 grid md:grid-cols-2 gap-4" action="https://api.web3forms.com/submit"
+                method="POST">
+                <input type="hidden" name="access_key" value="59e807e8-f9b4-487c-a6ab-b0c0ecd72f60">
+                <input data-aos="fade-up" required type="text" name="Ihr Name" placeholder="Ihr Name"
                     class="p-4 rounded-lg transition-all duration-500 border border-[#1f4b44]/40 focus:border-green-900 ">
-                <input data-aos="fade-up" required type="email" placeholder="E-Mail-Adresse"
+                <input data-aos="fade-up" required type="email" name="E-Mail-Adresse" placeholder="E-Mail-Adresse"
                     class="p-4 rounded-lg transition-all duration-500 border focus:border-green-900 border-[#1f4b44]/40">
-                <input data-aos="fade-up" required type="number" placeholder="Telefonnummer"
+                <input data-aos="fade-up" required type="number" name="Telefonnummer" placeholder="Telefonnummer"
                     class="p-4 md:col-span-2 rounded-lg transition-all duration-500 border focus:border-green-900 border-[#1f4b44]/40">
-                <textarea data-aos="fade-up" required placeholder="Ihre Nachricht"
+                <textarea data-aos="fade-up" required name="Ihre Nachricht" placeholder="Ihre Nachricht"
                     class="p-4 focus:border-green-900 md:col-span-2 rounded-lg transition-all duration-500 border border-[#1f4b44]/40"
                     rows="6"></textarea>
 
-                <div class="flex items-center justify-center md:col-span-2 mt-2">
-                    <button data-aos="fade-up"
+                <div data-aos="fade-up" class="flex items-center justify-center md:col-span-2 mt-2">
+                    <button 
                         class="px-8 cursor-pointer transition-all duration-500 hover:opacity-80 py-4 bg-[#1F4B44] rounded-lg text-white font-medium">
                         NACHRICHT SENDEN
                     </button>
